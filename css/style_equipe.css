@@ -1,0 +1,216 @@
+	html{
+}
+body {
+		letter-spacing: 0.2em;
+	background-color: black;
+	   font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: #121317;
+	color:white;
+	height:100px;
+	position:relative;
+}
+
+main{
+	margin-top:100px;
+}
+article{
+	border:ridge;
+	border-color:LightPink;
+ 	position:relative;
+	font-size:18px;
+	margin:1% 15% 1% 15%;
+
+}
+footer{
+	color:white;
+	height:100px;	
+	background-color: #121317;
+	position:relative;
+}
+
+footer>nav{
+ /*margin-left:38%;*/
+ 	width:25%;
+ 	/*border:groove;
+	border-color:green;*/
+
+ 	transform: translateX(-50%);
+	margin-left: 50%;
+}
+
+
+
+  header>nav{
+	margin-left:70%;
+
+	width: 20%;
+	transform: translateX(-50%);
+	margin-right: 5%;
+
+	/*border:groove;
+	border-color:green;*/
+ }
+
+
+  nav>div{
+ 	display:inline;
+ 	position:relative;
+ 	margin:15px;
+ 	display:block;
+	width:100px;
+
+ }
+
+
+
+
+.prix{
+		float: right;
+		font-weight:bold;
+}
+
+article>h2{
+margin-left:5%;
+color:LightPink;
+}
+
+ a{	
+  text-decoration: none;
+}
+
+a{color: white;}
+
+a:hover {color:grey;} 
+
+#logo{
+	width:100px;
+	position:absolute;
+}
+
+p{
+	color:grey;
+	line-height: 33px;
+    margin :0 20% 0 20%;
+    text-align:justify;
+}
+
+h1{color:white;
+text-align:center;}
+
+.produit{
+	height :500px;
+	margin-left:17%;
+}
+
+#color {
+	width:37%;
+	margin-left:32%;
+}
+
+#fleche{
+	position:fixed;
+	bottom:5%;
+	right:5%;
+	width:3%;
+	height:6%;
+	z-index:2; 
+}
+
+#submenu{
+	display:none;
+	color:#aca;
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+
+nav > div:hover #submenu {
+	display:block;
+}
+
+nav{
+	display:flex;
+	flex-direction:row;
+	height:100px;
+}
+#facebook{
+	top:10%;
+	right:8%;
+	position:absolute;
+	height:50px;
+	width:50px;
+}
+
+#twitter{
+	top:10%;
+	right:13%;
+	position:absolute;
+	height:50px;
+	width:50px;
+}
+html, body {
+  margin:0;
+
+}
+
+
+
+
+/* Equipe */
+
+/* Equipe */
+
+ul{color:grey;}
+
+img.alignedroite{
+    float: right;
+    height: 300px;
+    margin-right: 5%;
+    margin-top: -3.5%;
+    transform: rotate(3deg);
+  }
+p.alignegauche{
+    text-align: left;
+    margin: 0 0% 0 5%;
+}
+ul.alignegauche{
+    text-align: left;
+    margin: 0 0% 0 3%;
+    }
+
+h2.alignedroite{
+    text-align: right;
+    margin: 0 10% 0 0;
+}
+p.alignedroite{
+    text-align: right;
+    margin: 0 10% 0 0;
+
+}
+
+.centrer{
+    text-align: center;
+    line-height: 33px;
+    margin :0 15% 0 15%;
+}
+
+
+
+    
+/* tel*/
+@media(max-width: 1100px){
+    img.alignegauche{
+         margin: 0 50% 0 50%;
+    
+    }
+
+    img.alignedroite{
+        margin: 0 50% 0 50%;
+
+        transform: translateX(50%) rotate(0deg);
+        margin-left: 50%;
+    }
+}

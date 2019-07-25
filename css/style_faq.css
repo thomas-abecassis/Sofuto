@@ -1,0 +1,199 @@
+	html{
+}
+body {
+		letter-spacing: 0.2em;
+	background-color: black;
+	   font-family: 'Montserrat', sans-serif;
+}
+head{
+}
+header{
+	background-color: #121317;
+	color:white;
+	height:100px;
+	position: absolute;
+	top: 0; left: 0; right:0;
+}
+
+main{
+	margin-top:100px;
+}
+article{
+	margin-bottom:1px;
+	margin-top: 1px;
+	font-size:18px;
+}
+footer{
+	color:white;
+	height:100px;	
+	background-color: #121317;
+	position:relative;
+}
+
+
+header>nav{
+	margin-left:70%;
+	margin-top: 37px;
+ }
+
+footer>nav{
+ margin-left:38%;
+}
+  nav>div{
+ 	display:inline;
+ 	position:relative;
+ 	margin:15px;
+
+ }
+
+
+ article{
+ 	background-color: rgba(95,108,107,0.5);
+ }
+
+.prix{
+		float: right;
+		font-weight:bold;
+}
+
+article>h2{
+margin-left:5%;
+}
+
+ a{	
+  text-decoration: none;
+}
+
+a{color: white;}
+
+a:hover {color:grey;} 
+
+#logo{
+	width:100px;
+	position:absolute;
+}
+
+p{
+	line-height: 33px;
+	margin :0 300px 0 300px;
+	text-indent:justify;
+}
+
+h1{color:white;
+text-align:center;}
+
+.produit{
+	height :500px;
+	margin-left:17%;
+}
+
+#color {
+	width:37%;
+	margin-left:32%;
+}
+
+#fleche{
+	position:fixed;
+	bottom:5%;
+	right:5%;
+	width:3%;
+	height:6%;
+}
+
+#submenu{
+	display:none;
+	color:#aca;
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+
+nav > div:hover #submenu {
+	display:block;
+}
+#submenu>div:hover{
+	display:block;
+}
+
+#facebook{
+	top:10%;
+	right:8%;
+	position:absolute;
+	height:50px;
+	width:50px;
+}
+
+#twitter{
+	top:10%;
+	right:13%;
+	position:absolute;
+	height:50px;
+	width:50px;
+}
+
+
+/*---------FAQ---------*/
+
+.faq h3 {
+	margin :0 27% 0 27%;
+	color:lightpink;
+}
+.faq h2{
+	margin-left: 20px;
+	color:lightpink;
+}
+
+.faq p {
+	margin :0 30% 0 30%;
+	text-align:justify;
+	color:grey;
+}
+
+.faq ol{
+	line-height: 20px;
+}
+
+.faq .sommaire {
+	border-style: solid;
+	border-color: #303030;
+	max-width:350px;
+	width: 25%;
+	/*margin-left:350px;
+	margin-right: 350px;*/
+
+	position: fixed;
+	left: 60%;
+	padding-right: 20px;
+}
+
+.faq .question {
+	width: 75%;
+}
+
+
+
+@media (max-width: 1000px){
+	.faq .sommaire {
+		position: relative;
+		width: 70%;
+		left: 15%;
+		right: 15%;
+	}
+
+	.faq p {
+		position: relative;
+		margin :0 20% 0 20%;
+		text-align:justify;
+		color:grey;
+	}
+
+	.faq .question {
+		width: 100%;
+	}
+
+	.faq h3 {
+		margin :0 17% 0 17%;
+		color:lightpink;
+	}
+}
+
